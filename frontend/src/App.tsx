@@ -10,7 +10,12 @@ export default function App() {
   return (
     <main>
       <form onSubmit={handleSubmit}>
-        <button type="submit">Submit</button>
+        <button
+          type="submit"
+          className="p-2 bg-blue-700 text-white cursor-pointer rounded-lg m-4"
+        >
+          Submit
+        </button>
       </form>
     </main>
   );
